@@ -1,0 +1,208 @@
+.discover__superpower {
+  padding: 2em;
+  margin-top: 7em;
+}
+.discover__superpower h1 {
+  font-size: 3.5rem;
+  line-height: 1em;
+}
+.superpower__cards__wrapper {
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+.superpower__card {
+  padding: 1em;
+  margin: 1em;
+  width: 20em;
+  box-shadow: 0 0 1px gray;
+  border-radius: 0.8em;
+  text-align: center;
+}
+.superpower__text {
+  display: none;
+  padding: 1em;
+  margin: 1em;
+  width: 20em;
+  box-shadow: 0 0 3px gray;
+  border-radius: 0.8em;
+  text-align: center;
+  transition: 0.4s ease-in-out;
+}
+.superpower__card h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.4em;
+}
+.superpower__card img {
+  width: 100%;
+}
+.webdesigner__saying {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2em;
+  flex-wrap: wrap-reverse;
+}
+.webdesigner h4 {
+  font-size: 3rem;
+}
+.webdesigner__words {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2em;
+  flex-wrap: wrap;
+}
+.webdesigner__photo {
+  width: 18em;
+}
+.webdesigner__photo img {
+  width: 100%;
+}
+.webdesigner__purewords {
+  width: 40em;
+}
+.webdesigner__purewords h4 {
+  font-size: 2rem;
+}
+.webdesigner__purewords h5 {
+  margin-top: 2em;
+  font-size: 1.3rem;
+}
+.webdesigner__purewords p {
+  color: gray;
+  font-size: 1.2rem;
+}
+.wow__effect {
+  margin-top: 5em;
+  padding: 2em;
+}
+.wow__effect h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.wow__effect h1 ::after {
+  content: "Wow";
+  background-color: rgb(3, 177, 162);
+  color: white;
+}
+.wow__designs {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.wow__cards {
+  padding: 1em;
+  margin: 1em;
+  background-color: rgb(238, 237, 237);
+  border-radius: 0.8em;
+}
+.wow__cards img {
+  width: 100%;
+}
+.wow__button button {
+  background-color: black;
+  color: white;
+  padding: 0.8em;
+  border-radius: 0.5em;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+}
+.wow__button button:hover {
+  transition: 0.5s ease-in-out;
+  transform: translateY(-5%);
+}
+.details__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 5em;
+}
+.products__details ul {
+  list-style: none;
+  color: grey;
+  line-height: 3em;
+}
+.products__details ul li:hover {
+  transition: 0.4s ease-in-out;
+  color: black;
+  cursor: pointer;
+}
+.products__details:last-child p {
+  margin: 3em 0 3em 0;
+  color: grey;
+}
+.products__details:last-child input {
+  background-color: rgb(231, 231, 231);
+  border: none;
+  outline: none;
+  padding: 0.8em;
+  font-size: 1.1rem;
+  border-radius: 0.8em;
+}
+.products__details:last-child button {
+  background-color: black;
+  color: white;
+  padding: 0.8em;
+  border-radius: 0.5em;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  margin: 1em;
+}
+.products__details:last-child button:hover {
+  transition: 0.5s ease-in-out;
+  transform: translateY(-5%);
+}
+.products__details:last-child .icons {
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.icons i {
+  font-size: 1.2rem;
+}
+.icons i:hover {
+  color: rgb(6, 142, 206);
+}
+.footer {
+  padding: 1em;
+  text-align: center;
+  color: rgb(233, 232, 232);
+}
+
+@media screen and (max-width: 500px) {
+  .discover__superpower h1 {
+    font-size: 2rem;
+  }
+  .webdesigner h4 {
+    font-size: 2rem;
+  }
+  .webdesigner__purewords h4 {
+    font-size: 1rem;
+  }
+  .webdesigner__purewords h5 {
+    font-size: 1rem;
+  }
+  .webdesigner__purewords p {
+    font-size: 0.8rem;
+  }
+  .wow__effect h1 {
+    font-size: 2rem;
+  }
+  .products__details:last-child button {
+    font-size: 0.8rem;
+  }
+  .wow__button button {
+    font-size: 0.8rem;
+  }
+}
