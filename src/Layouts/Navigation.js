@@ -3,7 +3,7 @@ import "../assets/styles/layouts/navigation.css";
 import Logo from "../components/NavigationComponents/Logo";
 import MenuItems from "../components/NavigationComponents/MenuItems";
 import LoginSection from "../components/NavigationComponents/LoginSection";
-const Navigation = () => {
+export const Navigation = () => {
   return (
     <div class="navigation">
       <Logo />
@@ -12,5 +12,3 @@ const Navigation = () => {
     </div>
   );
 };
-
-export default Navigation;

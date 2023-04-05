@@ -1,19 +1,21 @@
 import React from "react";
 import "../assets/styles/layouts/bodyaftervideo.css";
 import creativity from "../assets/images/creativity.jpg";
-import CompanyLogo from "../components/BodyAfterVideo/CompanyLogo";
-import DesignStory from "../components/BodyAfterVideo/DesignStory";
-import ViewButton from "../components/BodyAfterVideo/ViewButton";
-import ButtonVideo from "../components/BodyAfterVideo/ButtonVideo";
-import StoryView from "../components/BodyAfterVideo/StoryView";
-import Creativity from "../components/BodyAfterVideo/Creativity";
-import VideoandParagraph from "../components/BodyAfterVideo/VideoandParagraph";
-import TellDesignStory from "../components/BodyAfterVideo/TellDesignStory";
-import DiscoverSuperPower from "../components/BodyAfterVideo/DiscoverSuperPower";
-import WebDesignerSaying from "../components/BodyAfterVideo/WebDesignerSaying";
-import WebDesignerWords from "../components/BodyAfterVideo/WebDesignerWords";
-import WowEffect from "../components/BodyAfterVideo/WowEffect";
-const BodyAfterVideo = () => {
+import {
+  ButtonVideo,
+  CompanyLogo,
+  Creativity,
+  DesignStory,
+  DiscoverSuperPower,
+  StoryView,
+  TellDesignStory,
+  VideoandParagraph,
+  ViewButton,
+  WebDesignerSaying,
+  WebDesignerWords,
+  WowEffect,
+} from "../components/BodyAfterVideo";
+export const BodyAfterVideo = () => {
   const companyLogo = [
     "https://overflow.io/assets/public-site-v2/images/customers/amazon.svg?v=1680461635535",
     "https://overflow.io/assets/public-site-v2/images/customers/netflix.svg?v=1680461635535",
@@ -39,5 +41,3 @@ const BodyAfterVideo = () => {
     </div>
   );
 };
-
-export default BodyAfterVideo;

@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/styles/layouts/footer.css";
-const Footer = () => {
+export const Footer = () => {
   return (
     <div class="footer">
       <p>Intern first practice project on HTML & CSS..</p>
@@ -8,4 +8,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+

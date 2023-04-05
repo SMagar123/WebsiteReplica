@@ -2,7 +2,7 @@ import React from "react";
 import "../assets/styles/layouts/bodydescription.css";
 import BodyWords from "../components/BodyDescriptionComponents/BodyWords";
 import BodyButton from "../components/BodyDescriptionComponents/BodyButton";
-const BodyDescription = () => {
+export const BodyDescription = () => {
   return (
     <div class="body__description">
       <BodyWords />
@@ -11,4 +11,4 @@ const BodyDescription = () => {
   );
 };
 
-export default BodyDescription;
+
