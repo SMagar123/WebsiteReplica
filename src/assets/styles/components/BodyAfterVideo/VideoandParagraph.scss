@@ -1,0 +1,30 @@
+.videoandparagraph {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin: 5em 3em 0 3em;
+  img {
+    height: 60vh;
+    width: 100%;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 5px gray;
+  }
+}
+.imageparagraph {
+  width: 40em;
+  border-radius: 0.9em;
+}
+.paragraph {
+  width: 30em;
+  padding: 1em;
+  h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1em;
+  }
+  p {
+    line-height: 1.5em;
+    color: rgb(77, 76, 76);
+  }
+}

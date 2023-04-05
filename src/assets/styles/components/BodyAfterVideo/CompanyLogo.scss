@@ -1,0 +1,20 @@
+.companies_logo {
+  margin-top: 2em;
+  padding: 2em;
+  background-color: white;
+}
+
+.companyname {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  img {
+    width: 6em;
+  }
+}
+.companyexplain {
+  margin-top: 1em;
+  text-align: center;
+  color: grey;
+}

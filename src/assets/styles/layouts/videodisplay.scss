@@ -1,0 +1,15 @@
+@import "../components/VideoDisplay/demolisting.scss";
+
+.videodisplay {
+  margin-top: -5em;
+  padding: 3em;
+}
+.videodisplay video {
+  width: 100%;
+  border-radius: 0.9rem;
+}
+
+.bodyaftervideo {
+  background-color: white;
+}
+

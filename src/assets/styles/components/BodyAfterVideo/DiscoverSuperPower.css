@@ -1,0 +1,44 @@
+.discover__superpower {
+  padding: 2em;
+  margin-top: 7em;
+}
+.discover__superpower h1 {
+  font-size: 3.5rem;
+  line-height: 1em;
+}
+
+.superpower__cards__wrapper {
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+
+.superpower__card {
+  padding: 1em;
+  margin: 1em;
+  width: 20em;
+  box-shadow: 0 0 1px gray;
+  border-radius: 0.8em;
+  text-align: center;
+}
+.superpower__card h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.4em;
+}
+.superpower__card img {
+  width: 100%;
+}
+
+.superpower__text {
+  display: none;
+  padding: 1em;
+  margin: 1em;
+  width: 20em;
+  box-shadow: 0 0 3px gray;
+  border-radius: 0.8em;
+  text-align: center;
+  transition: 0.4s ease-in-out;
+}/*# sourceMappingURL=DiscoverSuperPower.css.map */

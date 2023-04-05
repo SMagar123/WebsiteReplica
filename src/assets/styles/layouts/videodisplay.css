@@ -1,0 +1,25 @@
+.demo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 0.5em;
+}
+
+.demo img {
+  height: 3vh;
+}
+
+.videodisplay {
+  margin-top: -5em;
+  padding: 3em;
+}
+
+.videodisplay video {
+  width: 100%;
+  border-radius: 0.9rem;
+}
+
+.bodyaftervideo {
+  background-color: white;
+}/*# sourceMappingURL=videodisplay.css.map */

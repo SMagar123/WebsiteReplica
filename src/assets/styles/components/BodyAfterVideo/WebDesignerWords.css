@@ -1,0 +1,29 @@
+.webdesigner__words {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2em;
+  flex-wrap: wrap;
+}
+
+.webdesigner__photo {
+  width: 18em;
+}
+.webdesigner__photo img {
+  width: 100%;
+}
+
+.webdesigner__purewords {
+  width: 40em;
+}
+.webdesigner__purewords h4 {
+  font-size: 2rem;
+}
+.webdesigner__purewords h5 {
+  margin-top: 2em;
+  font-size: 1.3rem;
+}
+.webdesigner__purewords p {
+  color: gray;
+  font-size: 1.2rem;
+}/*# sourceMappingURL=WebDesignerWords.css.map */

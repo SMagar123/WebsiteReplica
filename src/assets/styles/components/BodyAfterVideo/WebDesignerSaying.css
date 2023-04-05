@@ -1,0 +1,11 @@
+.webdesigner__saying {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2em;
+  flex-wrap: wrap-reverse;
+}
+
+.webdesigner h4 {
+  font-size: 3rem;
+}/*# sourceMappingURL=WebDesignerSaying.css.map */

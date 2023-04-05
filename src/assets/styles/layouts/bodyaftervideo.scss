@@ -1,0 +1,63 @@
+@import "../components/BodyAfterVideo/CompanyLogo.scss";
+@import "../components/BodyAfterVideo/DesignStory.scss";
+@import "../components/BodyAfterVideo/ViewButton.scss";
+@import "../components/BodyAfterVideo/ButtonVideo.scss";
+@import "../components/BodyAfterVideo/StoryView.scss";
+@import "../components/BodyAfterVideo/Creativity.scss";
+@import "../components/BodyAfterVideo/VideoandParagraph.scss";
+@import "../components/BodyAfterVideo/TellDesignStory.scss";
+@import "../components/BodyAfterVideo/DiscoverSuperPower.scss";
+@import "../components/BodyAfterVideo/WebDesignerSaying.scss";
+@import "../components/BodyAfterVideo/WebDesignerWords.scss";
+@import "../components/BodyAfterVideo/WowEffect.scss";
+@media screen and (max-width: 500px) {
+  .discover__superpower h1 {
+    font-size: 2rem;
+  }
+  .webdesigner h4 {
+    font-size: 2rem;
+  }
+  .webdesigner__purewords h4 {
+    font-size: 1rem;
+  }
+  .webdesigner__purewords h5 {
+    font-size: 1rem;
+  }
+  .webdesigner__purewords p {
+    font-size: 0.8rem;
+  }
+  .wow__effect h1 {
+    font-size: 2rem;
+  }
+  .products__details:last-child button {
+    font-size: 0.8rem;
+  }
+  .wow__button button {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .design__story,
+  .tell__design__story p {
+    font-size: 1rem;
+  }
+  .creativity {
+    font-size: 1rem;
+  }
+  .story__view {
+    font-size: 1rem;
+  }
+  .tell__design__story h1 {
+    font-size: 2rem;
+  }
+  .tell__design__story button {
+    font-size: 0.8rem;
+  }
+  .videodisplay {
+    padding: 1em;
+  }
+  .button__video {
+    padding: 0.2em;
+    margin: 0 1em 0em 1em;
+  }
+}

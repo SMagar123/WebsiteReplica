@@ -1,0 +1,10 @@
+.button__video {
+  padding: 2em;
+  background-image: linear-gradient(rgb(136, 210, 245), rgb(24, 110, 238));
+  margin: 0 4em 1em 4em;
+  border-radius: 0.9rem;
+  video {
+    width: 100%;
+    border-radius: 0.9rem;
+  }
+}

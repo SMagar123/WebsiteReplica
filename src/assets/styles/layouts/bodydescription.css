@@ -1,0 +1,47 @@
+@import "../components/BodyDescription/bodywords.css";
+.body__button {
+  margin-top: 2em;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.body__button button {
+  background-color: black;
+  color: white;
+  padding: 1.2em;
+  border-radius: 0.5em;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+}
+.body__button button:hover {
+  transition: 0.5s ease-in-out;
+  transform: translateY(-5%);
+}
+.body__button span {
+  color: grey;
+}
+
+body {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0) 10%, rgb(82, 55, 236) 40%, rgb(55, 179, 236), rgba(255, 0, 0, 0));
+}
+
+.body__description {
+  text-align: center;
+  height: 70vh;
+  color: white;
+}
+
+@media only screen and (max-width: 500px) {
+  .body__words h1 {
+    font-size: 2rem;
+  }
+  .body__words p {
+    font-size: 1rem;
+  }
+  .viewbutton button {
+    font-size: 0.8rem;
+  }
+  .body__button button {
+    font-size: 0.8rem;
+  }
+}/*# sourceMappingURL=bodydescription.css.map */

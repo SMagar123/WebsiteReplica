@@ -1,9 +1,9 @@
 import React from "react";
-import Navigation from "../components/Navigation";
-import BodyDescription from "../components/BodyDescription";
-import VideoDisplay from "../components/VideoDisplay";
-import BodyAfterVideo from "../components/BodyAfterVideo";
-import Footer from "../components/Footer";
+import Navigation from "../Layouts/Navigation";
+import BodyDescription from "../Layouts/BodyDescription";
+import VideoDisplay from "../Layouts/VideoDisplay";
+import BodyAfterVideo from "../Layouts/BodyAfterVideo";
+import Footer from "../Layouts/Footer";
 
 const Home = () => {
   return (

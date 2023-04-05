@@ -1,0 +1,23 @@
+.menu__item {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  flex-wrap: wrap;
+}
+.menu__item a {
+  text-decoration: none;
+  color: black;
+}
+.menu__item a:hover {
+  transition: 0.3s ease-in-out;
+  color: rgb(0, 195, 255);
+}
+.menu__item select {
+  border: none;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.menu__item select:hover {
+  transition: 0.3s ease-in-out;
+  color: rgb(0, 195, 255);
+}/*# sourceMappingURL=menuitem.css.map */

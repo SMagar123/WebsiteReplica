@@ -1,0 +1,33 @@
+.tell__design__story {
+  height: 70vh;
+  margin-top: 5em;
+  background-image: url("https://overflow.io/assets/public-site-v2/images/cta-bg-01.png?v=1680461635535");
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 3em;
+}
+.tell__design__story h1 {
+  font-size: 3rem;
+}
+.tell__design__story p {
+  font-size: 1.5rem;
+  color: grey;
+}
+.tell__design__story button {
+  margin-top: 3em;
+  background-color: black;
+  color: white;
+  padding: 1em;
+  border-radius: 0.5em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+}
+.tell__design__story button:hover {
+  transition: 0.5s ease-in-out;
+  transform: translateY(-8%);
+}
+
+#downheading {
+  margin-bottom: 1em;
+}/*# sourceMappingURL=TellDesignStory.css.map */
